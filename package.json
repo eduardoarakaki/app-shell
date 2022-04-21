@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "shell-dev": "ng run app-shell:app-shell:development",
+    "shell-prd": "ng run app-shell:app-shell:production",
+    "shell-test":  "ng run appaname:app-shell"
   },
   "private": true,
   "dependencies": {
